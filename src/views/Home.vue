@@ -39,9 +39,9 @@ const ingredients = [
 
 function changePizzaCount(increase) {
   if(increase) {
-    this.pizzaCount++
-  } else if(this.pizzaCount !== 1) {
-    this.pizzaCount--
+    pizzaCount.value = pizzaCount.value + 1
+  } else if(pizzaCount.value !== 1) {
+    pizzaCount.value = pizzaCount.value - 1
   }
 }
 
