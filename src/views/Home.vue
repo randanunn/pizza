@@ -17,6 +17,7 @@
             <td class="table-column">{{ i.baseGrams * pizzaCount }}</td>
           </tr>
         </table>
+        * all in grams
       </div>
   </v-container>
 </template>
